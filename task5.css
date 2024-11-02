@@ -1,0 +1,243 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.home{
+    height: 100vh;
+    width: 100%;
+    background-image: url("photo5/drew-coffman-1872.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 1px;
+   
+    
+    
+}
+.container{
+    width: 90%;
+    margin: auto;
+}
+.introduction{
+     text-align: center;
+     padding: 20px;
+     color: aliceblue;
+     margin-top: 80px;
+}
+.introduction p{
+    font-size: 30px;
+    margin-top: 20px;
+    
+ 
+}
+.introduction h1{
+    font-size: 100px;
+    font-family: "Alegreya Sans", sans-serif;
+    margin-top: 20px;
+   
+}
+.home img{
+    width: 15%;
+    margin: 20px;
+    float: left;
+}
+.home ul{
+    float: right;
+   
+    display: flex;
+}
+.home ul li {
+    list-style: none;
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 40px;
+   
+}
+    
+
+
+.home ul li a {
+    color: white;
+    text-decoration: none;
+    text-transform: capitalize;
+    
+}
+.clear {
+    clear: both;
+}
+.introduction .learn-more{
+    border-radius: 2px;
+    border: solid 3px transparent;
+    background-color: #8e7754;
+}
+.introduction .contact-us{
+    border: solid 3px white;
+    background-color: transparent;
+}
+
+.introduction button {
+    margin-top: 40px;
+    border-radius: 5px;
+    padding: 20px 30px;
+    margin-left: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    text-transform: capitalize;
+    
+}
+.introduction button:hover{
+    background-color: white;
+    color: black;
+}
+.about , .about_location , .gallery ,.contact {
+    width: 100%;
+    height: auto;
+    margin-top: 8%;
+}
+.about_img , .contact_img{
+    width: 45%;
+    float: left;
+}
+.about_img img , .about_location img , .contact iframe{
+   width: 100%;
+}
+.text_about {
+width: 55%;
+float: right;
+padding-left: 100px;
+padding-top: 70px;
+
+}
+.text_about h2 , .about_location h2 , .gallery .info h2 ,.contact .contact_text h2{
+    font-size: 40px;
+}
+.text_about p , .about_location p , .gallery .info p , .div-gellery p ,.contact .contact_text p {
+    color: rgb(84, 89, 92);
+    margin-top: 30px;
+    font-size: 19px;
+    line-height: 30px;
+    word-spacing: -1px;
+}
+.location_img{
+    width: 45%;
+    float: right;
+    
+}
+.location_text{
+    width: 55%;
+    float: left;
+    padding-top: 150px;
+}
+.about_location ,.contact{
+    background-color:rgb(247, 247, 247);
+   
+}
+.about_location img {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+ .gallery{
+    text-align: center;
+   
+}
+.gallery .info h2{
+    text-transform: capitalize;
+}
+.div-gellery {
+    width: 33.3333%;
+    text-align: center;
+    float: left;
+    margin-top: 50px;
+    padding: 0px 20px;
+}
+.div-gellery img{
+    width: 100%;
+    margin-bottom: 10%;
+}
+.div-gellery h3 , .contact .contact_text p {
+ font-size: 20px;
+
+}
+.div-gellery p {
+    font-size: 18px;
+   
+}
+.contact .contact_text{
+    width: 45%;
+    padding-top: 60px;
+    float: left;
+}
+.contact .contact_img  {
+    
+    width: 55%;
+    float: right;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    padding-left: 140px;
+    
+
+}
+.contact .contact_text ul{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.contact .contact_text ul li{
+    list-style-type: none;
+    font-size: 20px;
+    padding: 10px;
+}
+.Contact_Details{
+    background-color: rgb(64, 61, 56);
+    padding-bottom: 50px;
+    padding-top: 40px;
+    overflow: auto;
+}
+.Contact_Details .Details {
+    float: left;
+    width: 25%;
+    padding-top: 40px;
+    padding-left: 30px;
+}
+.Contact_Details .Details h4{
+    color: white;
+    font-size: 20px;
+}
+.Contact_Details .Details p{
+    color: rgb(150, 150, 150);
+    line-height: 1.86em;
+    padding-top: 15px;
+    margin-top: 5px;
+    font-size: 18px;
+    margin-bottom: 6px;
+    padding-bottom: 7px;
+}
+.Contact_Details .Details ul li{
+    color: rgb(150, 150, 150);
+    padding-top: 20px;
+    font-size: 18px;
+    list-style: none;
+}
+.hr {
+    background-color: rgb(74, 74, 74);
+    width: 250px;
+    height: 1px;
+}
+.footer{
+    background-color: rgb(53, 51, 48);
+    overflow: auto;
+}
+.copy_right {
+    text-align: center;
+    padding-top: 60px;
+}
+.copy_right p{
+    color: rgb(150, 150, 150);
+    margin-top: 30px;
+}
+
+
+
+
+
